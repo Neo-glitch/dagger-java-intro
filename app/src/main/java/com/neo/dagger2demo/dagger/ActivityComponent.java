@@ -40,6 +40,8 @@ public interface ActivityComponent {
 //
 //        // if we used the default builder, then no needed doing this.since auto done for us(not needed in subComponent implementation)
 ////        Builder appComponent(AppComponent appComponent);
+
+
 //        ActivityComponent build();  // to ret a carComponent(must be specified in a custom builder)
 //
 //    }

@@ -22,7 +22,7 @@ public class DieselEngineModule {
         return horsePower;
     }
 
-    // note needed since provides method available for getting int value whereEver needed
+    // not needed since provides method available for getting int value whereEver needed
 //    @Provides
 //    Engine Engine(){
 //        return new DieselEngine(horsePower);

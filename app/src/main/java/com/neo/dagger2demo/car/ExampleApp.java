@@ -7,6 +7,7 @@ import com.neo.dagger2demo.dagger.DaggerAppComponent;
 
 
 public class ExampleApp extends Application {
+    // ensure to update manifest with needed code to make this work
 
     private AppComponent component;
 
