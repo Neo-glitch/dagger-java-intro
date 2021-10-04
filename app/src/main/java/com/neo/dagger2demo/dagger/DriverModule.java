@@ -9,14 +9,19 @@ import dagger.Module;
 import dagger.Provides;
 
 @Module
-public abstract class DriverModule {
+public class DriverModule {
+
+    String driverName;
+
+    public DriverModule(String driverName) {
+        this.driverName = driverName;
+    }
 
     // singleton here since, Driver has no inject constructor
-//    @Binds
     @Provides
     @Singleton
-    static Driver provideDriver(){
-        return new Driver();
+    Driver provideDriver(){
+        return new Driver(driverName);
     };
 
 }
